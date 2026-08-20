@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 
 st.set_page_config(page_title="Student Performance Predictor", layout="wide")
-st.title("📊 Student Performance Predictor + AI Explainer")
 
 with st.sidebar:
     st.header("About")
@@ -10,19 +9,37 @@ with st.sidebar:
     st.markdown("---")
     st.caption("Built with Streamlit, scikit-learn, and Ollama (local LLM)")
 
+st.title("📊 Student Performance Predictor + AI Explainer")
+st.write("Upload student records to predict outcomes and understand why, in plain language.")
+st.divider()
+
 uploaded_file = st.file_uploader("Upload student data (CSV)", type=["csv"])
+
+# Human-readable display names for columns
+display_names = {
+    "student_id": "Student ID",
+    "attendance_pct": "Attendance (%)",
+    "avg_marks": "Average Marks",
+    "study_hours_per_week": "Study Hours/Week",
+    "assignments_submitted": "Assignments Submitted",
+    "previous_grade": "Previous Grade",
+    "outcome": "Actual Outcome",
+    "predicted_outcome": "Predicted Outcome",
+    "confidence": "Confidence",
+}
 
 if uploaded_file is not None:
     df = None
     try:
         df = pd.read_csv(uploaded_file)
         st.success(f"Loaded {len(df)} student records.")
-        st.dataframe(df.head())
+        st.dataframe(df.head().rename(columns=display_names), width='stretch')
     except Exception as e:
         st.error(f"Couldn't read this file: {e}")
 
     if df is not None and not df.empty:
-        st.subheader("Model Training")
+        st.divider()
+        st.subheader("🧠 Model Training")
 
         feature_cols = ["attendance_pct", "avg_marks", "study_hours_per_week", "assignments_submitted", "previous_grade"]
         target_col = "outcome"
@@ -34,9 +51,8 @@ if uploaded_file is not None:
             y = df[target_col]
 
             X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-            st.write(f"Training on {len(X_train)} records, testing on {len(X_test)}.")
+            st.write(f"Training on **{len(X_train)}** records, testing on **{len(X_test)}**.")
 
-            # Step 3 — Train the model + show accuracy
             from sklearn.ensemble import RandomForestClassifier
             from sklearn.metrics import accuracy_score
 
@@ -48,8 +64,8 @@ if uploaded_file is not None:
 
             st.metric("Model Accuracy", f"{acc*100:.1f}%")
 
-            # Step 4 — Predict on the full dataset + styled results table
-            st.subheader("Predictions")
+            st.divider()
+            st.subheader("📋 Predictions")
 
             df["predicted_outcome"] = model.predict(X)
             df["confidence"] = model.predict_proba(X).max(axis=1)
@@ -58,15 +74,14 @@ if uploaded_file is not None:
                 color = "#2ecc71" if val == "Pass" else "#e74c3c"
                 return f"color: {color}; font-weight: bold"
 
-            styled_df = df[["student_id", "predicted_outcome", "confidence"] + feature_cols].style.map(
-                highlight_outcome, subset=["predicted_outcome"]
-            )
-            st.dataframe(styled_df)
+            results_df = df[["student_id", "predicted_outcome", "confidence"] + feature_cols].rename(columns=display_names)
+            styled_df = results_df.style.map(highlight_outcome, subset=["Predicted Outcome"]).format({"Confidence": "{:.0%}"})
+            st.dataframe(styled_df, width='stretch')
 
-            # Step 5 — Feature importance extraction (refined chart)
-            st.subheader("What Drives These Predictions?")
+            st.divider()
+            st.subheader("🔍 What Drives These Predictions?")
 
-            importances = pd.Series(model.feature_importances_, index=feature_cols).sort_values(ascending=True)
+            importances = pd.Series(model.feature_importances_, index=feature_cols).rename(index=display_names).sort_values(ascending=True)
 
             import plotly.graph_objects as go
 
@@ -97,10 +112,11 @@ if uploaded_file is not None:
 
             st.plotly_chart(fig, width='stretch')
 
-            top_features = importances.sort_values(ascending=False).index[:3].tolist()
+            top_features = pd.Series(model.feature_importances_, index=feature_cols).sort_values(ascending=False).index[:3].tolist()
+            top_features_display = [display_names.get(f, f) for f in top_features]
 
-            # Step 6 — LLM explanation layer
-            st.subheader("Individual Student Explanation")
+            st.divider()
+            st.subheader("💬 Individual Student Explanation")
 
             selected_id = st.selectbox("Select a student", df["student_id"])
             student_row = df[df["student_id"] == selected_id].iloc[0]
@@ -118,7 +134,7 @@ Previous grade: {student_row['previous_grade']}
 A machine learning model predicted this student's outcome as: {student_row['predicted_outcome']}
 (confidence: {student_row['confidence']:.0%})
 
-The top factors the model weighs most heavily overall are: {', '.join(top_features)}.
+The top factors the model weighs most heavily overall are: {', '.join(top_features_display)}.
 
 Explain in 2-3 plain-language sentences, for a non-technical teacher, why this student likely got this prediction. Be specific to their numbers, not generic."""
 
@@ -126,18 +142,29 @@ Explain in 2-3 plain-language sentences, for a non-technical teacher, why this s
                     response = ollama.chat(model="phi4-mini", messages=[{"role": "user", "content": prompt}])
                     explanation = response["message"]["content"]
 
-                st.write(explanation)
+                st.info(explanation)
 
-            # Step 7 — Class-level overview chart
-            st.subheader("Class Overview")
+            st.divider()
+            st.subheader("🎓 Class Overview")
 
             outcome_counts = df["predicted_outcome"].value_counts()
 
             import plotly.express as px
-            fig2 = px.pie(values=outcome_counts.values, names=outcome_counts.index, title="Predicted Outcome Distribution")
+            fig2 = px.pie(
+                values=outcome_counts.values,
+                names=outcome_counts.index,
+                title="Predicted Outcome Distribution",
+                color=outcome_counts.index,
+                color_discrete_map={"Pass": "#2ecc71", "Fail": "#e74c3c"}
+            )
+            fig2.update_layout(
+                plot_bgcolor="rgba(0,0,0,0)",
+                paper_bgcolor="rgba(0,0,0,0)",
+                font=dict(size=14),
+            )
             st.plotly_chart(fig2, width='stretch')
 
         else:
             st.warning(f"CSV must contain columns: {feature_cols + [target_col]}")
 else:
-    st.info("Upload a CSV to get started.")
+    st.info("👆 Upload a CSV to get started.")
