@@ -1,0 +1,3 @@
+student_id,attendance_pct,avg_marks,study_hours_per_week,assignments_submitted,previous_grade,outcome
+1,90,85,10,9,88,Pass
+2,40,35,2,3,40,Fail

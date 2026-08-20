@@ -50,16 +50,41 @@ if uploaded_file is not None:
 
             st.dataframe(df[["student_id", "predicted_outcome", "confidence"] + feature_cols])
 
-            # Step 5 — Feature importance extraction
+            # Step 5 — Feature importance extraction (refined chart)
             st.subheader("What Drives These Predictions?")
 
-            importances = pd.Series(model.feature_importances_, index=feature_cols).sort_values(ascending=False)
+            importances = pd.Series(model.feature_importances_, index=feature_cols).sort_values(ascending=True)
 
-            import plotly.express as px
-            fig = px.bar(importances, orientation="h", title="Feature Importance (Overall Model)")
-            st.plotly_chart(fig, use_container_width=True)
+            import plotly.graph_objects as go
 
-            top_features = importances.index[:3].tolist()
+            fig = go.Figure(go.Bar(
+                x=importances.values,
+                y=importances.index,
+                orientation="h",
+                marker=dict(
+                    color=importances.values,
+                    colorscale=[[0, "#6EC1E4"], [1, "#1F77B4"]],
+                    line=dict(width=0)
+                ),
+                text=[f"{v:.1%}" for v in importances.values],
+                textposition="outside",
+            ))
+
+            fig.update_layout(
+                title="Feature Importance (Overall Model)",
+                xaxis_title="Relative Importance",
+                yaxis_title=None,
+                showlegend=False,
+                plot_bgcolor="rgba(0,0,0,0)",
+                paper_bgcolor="rgba(0,0,0,0)",
+                font=dict(size=14),
+                margin=dict(l=10, r=10, t=50, b=10),
+                xaxis=dict(showgrid=True, gridcolor="rgba(128,128,128,0.2)", tickformat=".0%"),
+            )
+
+            st.plotly_chart(fig, width='stretch')
+
+            top_features = importances.sort_values(ascending=False).index[:3].tolist()
 
             # Step 6 — LLM explanation layer
             st.subheader("Individual Student Explanation")
@@ -94,8 +119,10 @@ Explain in 2-3 plain-language sentences, for a non-technical teacher, why this s
             st.subheader("Class Overview")
 
             outcome_counts = df["predicted_outcome"].value_counts()
+
+            import plotly.express as px
             fig2 = px.pie(values=outcome_counts.values, names=outcome_counts.index, title="Predicted Outcome Distribution")
-            st.plotly_chart(fig2, use_container_width=True)
+            st.plotly_chart(fig2, width='stretch')
 
         else:
             st.warning(f"CSV must contain columns: {feature_cols + [target_col]}")
