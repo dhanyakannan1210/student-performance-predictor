@@ -1,0 +1,501 @@
+student_id,student_name,study_hours,attendance,previous_score,sleep_hours,parental_education,gender,extra_curricular,final_score,risk_level
+STU001,Jaya Verma,20.7,93.1,91.6,8.1,Associate Degree,Female,Yes,92.0,Low Risk
+STU002,Zoya Bhat,17.2,100.0,84.9,6.5,High School,Female,No,86.9,Low Risk
+STU003,Siddharth Nair,21.6,65.2,72.8,6.2,Associate Degree,Female,No,75.3,Medium Risk
+STU004,Ishaan Anderson,26.4,88.8,62.9,7.2,High School,Female,Yes,87.0,Low Risk
+STU005,Harsh Moore,16.7,74.2,81.8,7.0,Master's,Female,No,79.6,Medium Risk
+STU006,Henry Gupta,16.7,76.2,77.5,6.7,Master's,Female,Yes,83.8,Low Risk
+STU007,Arjun Singh,26.7,74.9,84.5,8.0,High School,Male,Yes,86.9,Medium Risk
+STU008,Rohan Kulkarni,22.2,71.6,80.9,8.3,Doctorate,Male,No,82.0,Medium Risk
+STU009,Logan Jackson,15.4,82.6,86.7,7.3,Bachelor's,Male,Yes,80.8,Low Risk
+STU010,Arjun Thomas,21.0,72.0,64.5,9.0,Associate Degree,Female,Yes,77.3,Medium Risk
+STU011,Rahul Anderson,15.5,85.2,90.4,5.8,High School,Female,Yes,85.4,Low Risk
+STU012,Harper Kulkarni,15.4,81.4,74.8,7.0,Bachelor's,Male,Yes,79.4,Low Risk
+STU013,Abigail Moore,19.3,79.1,98.0,6.3,Bachelor's,Female,Yes,94.4,Low Risk
+STU014,Zoya Sharma,7.5,71.1,62.4,5.0,Bachelor's,Female,No,52.1,Medium Risk
+STU015,Neha Davis,8.5,75.1,96.3,7.1,High School,Male,Yes,81.2,Low Risk
+STU016,Sophia Malhotra,14.9,91.1,74.8,7.1,High School,Male,Yes,83.8,Low Risk
+STU017,Meera Deshmukh,12.4,88.0,62.9,9.0,Associate Degree,Male,Yes,72.0,Low Risk
+STU018,Sophia Reddy,19.7,70.3,65.2,8.0,Associate Degree,Female,No,78.2,Medium Risk
+STU019,Harsh Jones,13.0,83.2,67.5,6.0,High School,Female,No,61.7,Medium Risk
+STU020,Isha Williams,10.2,91.0,77.9,9.4,Associate Degree,Male,No,69.9,Medium Risk
+STU021,Mason Jackson,26.1,62.0,79.3,8.7,Master's,Female,No,80.8,Medium Risk
+STU022,Vidya Gupta,16.8,88.5,64.0,7.9,Master's,Male,No,78.7,Low Risk
+STU023,Michael Anderson,18.4,74.0,71.7,6.9,Associate Degree,Male,Yes,72.6,Medium Risk
+STU024,Karan Jones,10.2,88.8,98.0,6.0,Master's,Male,Yes,86.6,Low Risk
+STU025,Gautam Thomas,15.0,72.8,96.2,6.8,Associate Degree,Female,No,85.2,Medium Risk
+STU026,Emma Martin,18.6,60.3,78.1,8.5,Bachelor's,Female,No,75.8,Medium Risk
+STU027,William Taylor,11.7,62.5,72.5,9.5,High School,Male,No,61.9,Medium Risk
+STU028,Priya Kumar,20.1,82.6,73.7,9.1,Bachelor's,Male,Yes,78.1,Low Risk
+STU029,Bhavya Kulkarni,14.7,85.1,80.6,6.6,Doctorate,Male,Yes,79.2,Low Risk
+STU030,Emma Singh,16.4,71.1,57.7,5.9,Bachelor's,Female,Yes,71.5,Medium Risk
+STU031,Sanya Reddy,14.7,89.7,68.4,7.4,Associate Degree,Female,No,77.2,Low Risk
+STU032,James Malhotra,28.2,62.1,48.6,5.1,Bachelor's,Male,Yes,72.3,Medium Risk
+STU033,Michael Brown,17.9,81.2,77.6,7.6,High School,Male,Yes,78.7,Low Risk
+STU034,Neha Brown,12.2,67.5,81.1,7.0,Master's,Male,No,64.4,Medium Risk
+STU035,Isabella Deshmukh,22.5,74.2,65.2,6.6,Bachelor's,Female,Yes,75.1,Medium Risk
+STU036,Yash Kumar,11.3,82.6,94.0,5.3,Associate Degree,Male,No,83.4,Low Risk
+STU037,Victoria Mehta,19.1,71.7,54.8,7.8,Bachelor's,Male,Yes,66.1,Medium Risk
+STU038,Levi Bhat,7.2,77.4,51.5,6.6,Bachelor's,Male,Yes,57.9,Medium Risk
+STU039,Neha Martinez,10.7,94.1,75.1,5.8,High School,Female,Yes,76.9,Low Risk
+STU040,James Malhotra,19.1,75.1,86.7,4.5,Bachelor's,Female,No,75.5,Low Risk
+STU041,Camila Kulkarni,22.1,92.0,95.6,7.2,High School,Male,Yes,96.2,Low Risk
+STU042,Ava Patel,18.9,68.4,65.6,9.3,Bachelor's,Female,Yes,75.4,Medium Risk
+STU043,Sanya Gupta,17.4,88.4,87.1,9.2,Master's,Female,No,85.0,Low Risk
+STU044,Noah Garcia,16.3,99.3,71.5,6.7,Master's,Male,Yes,93.8,Low Risk
+STU045,Yash Kumar,9.9,52.3,69.6,6.5,Bachelor's,Female,No,51.8,High Risk
+STU046,Rohan Taylor,14.0,72.4,84.4,7.8,Bachelor's,Male,No,79.4,Medium Risk
+STU047,Noah Deshmukh,15.5,88.9,81.1,6.0,High School,Female,Yes,79.2,Low Risk
+STU048,Mila Garcia,23.8,79.6,49.9,7.6,Bachelor's,Male,No,77.2,Low Risk
+STU049,Michael Iyer,19.9,86.5,92.7,8.1,Associate Degree,Non-Binary,Yes,92.3,Low Risk
+STU050,Vidya Nair,8.3,74.8,91.3,8.7,Bachelor's,Female,No,69.4,Medium Risk
+STU051,Utkarsh Thomas,19.8,83.0,63.2,7.1,Associate Degree,Female,Yes,78.2,Low Risk
+STU052,Levi Shah,15.9,80.1,77.5,7.0,High School,Female,No,68.6,Medium Risk
+STU053,Jack Davis,14.3,96.0,78.9,6.1,Bachelor's,Female,Yes,84.0,Low Risk
+STU054,Jack Garcia,21.4,85.1,75.6,6.2,High School,Male,No,82.0,Low Risk
+STU055,William Kulkarni,23.7,86.1,64.3,6.9,Bachelor's,Male,Yes,86.1,Low Risk
+STU056,Kiran Gonzalez,23.1,77.1,62.6,7.6,Associate Degree,Female,Yes,83.0,Low Risk
+STU057,Mila Singh,13.4,76.1,71.6,8.3,High School,Female,Yes,71.5,Medium Risk
+STU058,Chaitanya Rao,16.3,76.8,88.4,6.2,Bachelor's,Female,Yes,82.6,Low Risk
+STU059,Meera Mehta,19.8,86.7,79.6,9.0,High School,Male,No,78.1,Low Risk
+STU060,Henry Jackson,23.4,76.9,66.8,6.9,Associate Degree,Female,Yes,78.2,Low Risk
+STU061,Divya Jones,15.4,85.5,82.8,7.2,Bachelor's,Male,No,84.9,Low Risk
+STU062,James Jackson,17.0,100.0,35.0,6.3,High School,Male,No,69.0,Medium Risk
+STU063,Emily Wilson,11.9,92.5,88.1,4.5,Master's,Male,No,78.3,Low Risk
+STU064,Varun Thomas,11.4,78.1,47.6,8.3,High School,Female,Yes,58.7,Medium Risk
+STU065,Aditi Rao,22.5,96.4,66.9,8.1,High School,Male,Yes,81.8,Low Risk
+STU066,Levi Malhotra,25.5,77.1,56.3,6.9,Bachelor's,Female,No,81.8,Low Risk
+STU067,Sophia Rao,17.6,57.5,53.9,7.3,Associate Degree,Female,Yes,65.5,High Risk
+STU068,Emma Davis,23.5,69.9,88.3,7.8,High School,Male,Yes,93.7,Medium Risk
+STU069,Neha Martinez,20.0,59.6,65.5,5.3,Associate Degree,Male,No,63.9,High Risk
+STU070,Aarav Shah,14.5,77.8,76.9,6.6,Associate Degree,Female,No,71.7,Medium Risk
+STU071,Logan Joshi,20.0,82.2,71.3,8.2,Master's,Female,No,81.2,Low Risk
+STU072,Logan Reddy,26.5,100.0,78.7,5.7,Associate Degree,Female,Yes,97.3,Low Risk
+STU073,Liam Gonzalez,17.8,85.9,73.1,7.6,Bachelor's,Female,No,78.9,Low Risk
+STU074,Victoria Chopra,26.6,79.4,54.0,5.6,Master's,Female,Yes,77.0,Low Risk
+STU075,Meera Brown,3.6,92.0,85.9,7.8,Associate Degree,Female,Yes,75.2,Low Risk
+STU076,Neha Anderson,22.5,55.5,65.1,7.2,Master's,Female,No,75.0,High Risk
+STU077,Avery Sharma,18.5,84.8,50.2,5.3,Associate Degree,Male,Yes,65.7,Medium Risk
+STU078,Owen Smith,16.4,91.3,66.0,8.6,Doctorate,Male,Yes,84.4,Low Risk
+STU079,Jacob Verma,18.5,64.3,93.0,6.3,High School,Male,Yes,84.6,Medium Risk
+STU080,Jaya Brown,7.1,95.7,83.9,6.2,Bachelor's,Female,No,74.6,Low Risk
+STU081,Olivia Bhat,16.8,86.1,67.1,7.4,Bachelor's,Male,No,76.4,Low Risk
+STU082,Dev Bhat,20.0,77.0,67.1,8.6,Associate Degree,Male,No,76.4,Low Risk
+STU083,Mateo Singh,26.1,89.6,67.5,6.0,Bachelor's,Male,No,82.9,Low Risk
+STU084,Gautam Lopez,15.1,100.0,98.0,7.3,Bachelor's,Male,Yes,93.6,Low Risk
+STU085,Divya Anderson,13.6,84.2,77.3,7.7,High School,Male,Yes,68.6,Medium Risk
+STU086,Kavya Nair,15.2,85.0,78.0,8.0,High School,Male,Yes,81.1,Low Risk
+STU087,Daniel Thomas,23.0,76.5,86.4,7.4,Bachelor's,Female,Yes,84.5,Low Risk
+STU088,Nikhil Shah,19.8,71.8,75.3,6.8,Bachelor's,Male,Yes,84.8,Medium Risk
+STU089,Avery Jackson,15.1,92.0,68.4,6.2,Doctorate,Male,No,76.1,Low Risk
+STU090,Henry Deshmukh,20.8,71.7,69.3,7.3,Bachelor's,Male,Yes,77.9,Medium Risk
+STU091,Sofia Chopra,18.5,82.9,71.0,5.9,Doctorate,Male,Yes,78.6,Low Risk
+STU092,Olivia Garcia,23.3,76.3,71.5,4.5,Bachelor's,Female,Yes,79.5,Low Risk
+STU093,Mia Rodriguez,14.1,87.7,82.2,7.7,Associate Degree,Female,Yes,85.8,Low Risk
+STU094,Jackson Rodriguez,16.2,86.0,72.7,8.3,High School,Male,No,66.2,Medium Risk
+STU095,Karan Bhat,15.8,94.5,82.3,4.5,Bachelor's,Male,Yes,87.1,Low Risk
+STU096,Siddharth Kumar,10.0,75.9,70.9,6.0,Bachelor's,Male,Yes,68.4,Medium Risk
+STU097,Sophia Verma,19.6,78.8,73.1,7.9,High School,Female,No,72.8,Low Risk
+STU098,Scarlett Thomas,19.4,70.3,44.0,9.5,Associate Degree,Female,Yes,59.2,Medium Risk
+STU099,Sanya Moore,18.0,76.7,84.8,7.2,Doctorate,Male,Yes,91.5,Low Risk
+STU100,Siddharth Sharma,16.7,86.5,76.9,6.3,Bachelor's,Male,Yes,77.6,Low Risk
+STU101,Esha Patel,10.2,91.1,86.0,7.0,Associate Degree,Male,No,72.9,Low Risk
+STU102,Sanya Kumar,15.7,70.9,35.0,8.8,Bachelor's,Female,No,59.1,Medium Risk
+STU103,Ananya Johnson,16.1,92.4,98.0,6.4,High School,Male,No,88.3,Low Risk
+STU104,Esha Gonzalez,13.6,98.3,70.0,6.2,Associate Degree,Female,Yes,74.0,Low Risk
+STU105,Tanvi Malhotra,17.1,87.0,87.5,6.6,Associate Degree,Male,No,84.1,Low Risk
+STU106,Jacob Deshmukh,20.2,100.0,57.4,6.1,High School,Female,Yes,75.1,Low Risk
+STU107,Sofia Nair,28.4,72.7,80.6,7.3,Bachelor's,Female,Yes,96.0,Medium Risk
+STU108,Aria Taylor,19.0,67.1,57.3,9.1,Associate Degree,Male,Yes,71.2,Medium Risk
+STU109,Daniel Bhat,19.4,60.7,63.3,7.6,Master's,Male,Yes,74.1,Medium Risk
+STU110,Daniel Miller,17.6,100.0,98.0,6.9,Master's,Female,Yes,98.1,Low Risk
+STU111,Priya Reddy,7.4,89.9,69.3,6.8,High School,Male,No,71.3,Medium Risk
+STU112,Isha Davis,17.9,81.3,75.0,5.3,Bachelor's,Female,No,76.6,Low Risk
+STU113,Isabella Davis,18.3,85.4,84.2,8.3,Bachelor's,Female,Yes,81.7,Low Risk
+STU114,Lucas Martinez,31.5,68.5,78.9,7.1,Master's,Female,Yes,95.8,Medium Risk
+STU115,Chaitanya Reddy,16.9,100.0,74.1,7.0,High School,Female,Yes,90.4,Low Risk
+STU116,Dev Garcia,19.7,83.6,77.1,9.5,Bachelor's,Male,Yes,78.9,Low Risk
+STU117,Sophia Reddy,17.8,83.3,98.0,7.6,Bachelor's,Female,No,88.0,Low Risk
+STU118,Utkarsh Chopra,11.6,90.7,71.2,6.3,Associate Degree,Male,Yes,74.7,Low Risk
+STU119,Priya Anderson,24.3,87.8,74.8,6.7,High School,Male,No,85.1,Low Risk
+STU120,Abigail Nair,22.1,84.7,86.7,8.6,Bachelor's,Female,Yes,87.1,Low Risk
+STU121,Henry Joshi,22.4,72.5,87.5,7.3,Bachelor's,Male,Yes,92.3,Medium Risk
+STU122,Zoya Martinez,13.0,87.7,88.6,5.5,Associate Degree,Female,Yes,88.3,Low Risk
+STU123,Utkarsh Kumar,25.7,100.0,80.9,8.3,Bachelor's,Male,Yes,98.0,Low Risk
+STU124,Alexander Thomas,10.3,98.1,56.0,6.4,Associate Degree,Female,Yes,64.8,Medium Risk
+STU125,Isha Patel,21.2,100.0,94.9,9.4,Bachelor's,Female,No,89.5,Low Risk
+STU126,Sofia Sharma,30.0,75.9,56.0,8.5,High School,Female,Yes,82.5,Low Risk
+STU127,Harsh Bhat,12.6,70.1,76.2,6.7,Master's,Female,No,74.2,Medium Risk
+STU128,Nikhil Miller,14.9,80.5,61.4,8.7,Associate Degree,Female,Yes,71.2,Medium Risk
+STU129,Jacob Hernandez,18.5,82.7,71.1,7.3,Associate Degree,Male,Yes,79.4,Low Risk
+STU130,Rohan Garcia,15.2,95.1,76.6,8.2,High School,Male,Yes,78.4,Low Risk
+STU131,Dev Mehta,9.5,61.7,76.5,7.8,High School,Male,No,58.1,Medium Risk
+STU132,James Sharma,18.4,100.0,77.9,6.2,Bachelor's,Male,Yes,90.3,Low Risk
+STU133,Charlotte Shah,12.2,80.1,94.6,6.4,Associate Degree,Female,No,81.7,Low Risk
+STU134,Michael Agarwal,20.6,76.9,78.3,8.4,Master's,Female,Yes,78.7,Low Risk
+STU135,Henry Thomas,12.9,69.9,68.6,6.8,High School,Female,No,70.1,Medium Risk
+STU136,Jacob Iyer,26.5,62.1,85.5,6.7,Associate Degree,Female,Yes,89.0,Medium Risk
+STU137,Priya Agarwal,13.7,91.9,88.7,6.1,Associate Degree,Male,No,86.0,Low Risk
+STU138,Rohan Patel,16.2,82.9,54.8,7.7,High School,Male,No,62.4,Medium Risk
+STU139,Jack Anderson,22.5,66.5,80.4,9.5,High School,Female,No,72.6,Medium Risk
+STU140,Dev Smith,11.2,66.5,81.8,5.9,Associate Degree,Female,Yes,68.5,Medium Risk
+STU141,Dev Patel,19.3,78.0,67.8,7.2,Bachelor's,Male,Yes,80.1,Low Risk
+STU142,Jack Hernandez,25.2,100.0,91.3,8.9,Associate Degree,Male,Yes,99.5,Low Risk
+STU143,Logan Wilson,9.2,78.9,69.9,7.1,Bachelor's,Female,No,68.7,Medium Risk
+STU144,Neha Patel,19.0,64.0,73.8,7.7,Bachelor's,Male,Yes,75.3,Medium Risk
+STU145,Ella Singh,19.4,79.1,69.6,5.9,High School,Male,No,70.4,Medium Risk
+STU146,Pranav Kumar,22.3,78.7,72.2,7.7,Bachelor's,Female,Yes,88.1,Low Risk
+STU147,Owen Kumar,11.2,49.6,56.7,7.0,Doctorate,Female,Yes,54.0,High Risk
+STU148,Tanvi Garcia,10.7,81.3,51.8,8.4,Bachelor's,Male,Yes,68.2,Medium Risk
+STU149,Karan Taylor,20.9,79.2,94.3,8.6,Bachelor's,Male,No,87.6,Low Risk
+STU150,Utkarsh Moore,19.6,90.4,60.1,9.5,Associate Degree,Male,No,79.9,Low Risk
+STU151,Owen Gupta,19.4,100.0,58.1,7.9,Bachelor's,Female,No,81.6,Low Risk
+STU152,Madison Singh,19.9,95.5,41.9,7.6,Bachelor's,Female,Yes,73.4,Low Risk
+STU153,Harper Moore,14.3,78.8,63.1,7.4,Bachelor's,Male,No,67.5,Medium Risk
+STU154,Mateo Wilson,19.3,68.7,53.5,6.8,Doctorate,Male,No,67.7,Medium Risk
+STU155,Noah Shah,19.6,100.0,95.0,7.6,High School,Female,Yes,96.8,Low Risk
+STU156,Rhea Smith,14.1,82.7,86.1,6.8,High School,Male,No,77.6,Low Risk
+STU157,Tanvi Shah,28.3,82.2,62.4,7.4,Bachelor's,Male,No,83.4,Low Risk
+STU158,Benjamin Nair,20.6,81.7,98.0,8.8,Master's,Male,No,90.8,Low Risk
+STU159,Liam Martinez,11.4,84.4,85.7,6.0,High School,Male,No,74.0,Low Risk
+STU160,Noah Kumar,21.6,80.3,67.5,8.6,Associate Degree,Male,Yes,72.0,Low Risk
+STU161,Aditi Martinez,12.6,75.1,37.0,8.8,High School,Female,Yes,55.5,Medium Risk
+STU162,Madison Taylor,22.3,75.4,98.0,7.1,Associate Degree,Male,No,86.9,Low Risk
+STU163,Isha Kumar,24.4,81.6,52.5,4.7,Bachelor's,Female,Yes,71.6,Medium Risk
+STU164,Levi Deshmukh,13.5,75.5,49.0,6.5,Bachelor's,Male,No,54.5,Medium Risk
+STU165,Logan Shah,23.3,73.4,86.3,8.8,Associate Degree,Female,No,78.5,Medium Risk
+STU166,Kavya Williams,20.3,83.3,98.0,7.2,Associate Degree,Male,No,86.0,Low Risk
+STU167,Divya Bhat,22.5,78.9,91.4,6.0,High School,Female,No,84.1,Low Risk
+STU168,Mia Agarwal,28.4,100.0,79.9,6.6,Associate Degree,Female,Yes,99.5,Low Risk
+STU169,Neha Rodriguez,16.7,50.2,80.3,8.2,Bachelor's,Female,Yes,69.5,High Risk
+STU170,Sofia Saxena,13.9,95.1,83.9,7.9,Doctorate,Female,Yes,87.1,Low Risk
+STU171,Theodore Wilson,13.1,97.0,82.6,6.9,Master's,Male,Yes,85.8,Low Risk
+STU172,Aditi Thomas,13.5,57.1,75.9,6.8,High School,Male,Yes,66.6,High Risk
+STU173,Liam Reddy,17.6,77.9,73.5,6.7,Master's,Male,Yes,78.9,Low Risk
+STU174,Kiran Shah,19.9,77.5,71.1,6.1,Bachelor's,Female,No,72.7,Low Risk
+STU175,Jaya Reddy,19.5,65.1,61.4,9.1,Bachelor's,Female,No,73.2,Medium Risk
+STU176,Sebastian Iyer,22.5,72.7,68.1,6.8,Bachelor's,Female,Yes,86.1,Medium Risk
+STU177,Yash Agarwal,18.1,68.7,48.3,8.7,Associate Degree,Female,Yes,57.9,Medium Risk
+STU178,Victoria Deshmukh,26.0,100.0,70.6,9.0,Associate Degree,Male,No,85.9,Low Risk
+STU179,Sophia Deshmukh,16.5,93.2,58.2,8.4,High School,Female,Yes,72.4,Low Risk
+STU180,Vidya Gonzalez,33.0,97.3,56.5,6.7,High School,Female,Yes,88.8,Low Risk
+STU181,Jacob Shah,21.4,90.7,74.5,7.7,High School,Female,Yes,87.4,Low Risk
+STU182,Chaitanya Singh,13.3,68.5,91.5,7.2,Bachelor's,Female,No,74.1,Medium Risk
+STU183,Henry Malhotra,12.1,75.7,84.9,6.1,Bachelor's,Male,Yes,83.1,Low Risk
+STU184,Bhavya Sharma,20.7,87.9,50.0,7.6,Bachelor's,Male,No,77.9,Low Risk
+STU185,Ethan Nair,16.8,67.3,58.1,5.8,High School,Female,Yes,65.1,Medium Risk
+STU186,Vidya Mehta,21.9,90.6,85.2,8.6,Doctorate,Female,Yes,97.1,Low Risk
+STU187,Alexander Thomas,20.6,79.1,58.2,6.6,Master's,Female,Yes,80.2,Low Risk
+STU188,Henry Thomas,17.6,77.5,68.9,7.4,Bachelor's,Female,Yes,75.0,Low Risk
+STU189,Aditi Rao,13.3,90.5,79.7,7.5,Doctorate,Female,No,78.2,Low Risk
+STU190,Esha Iyer,9.7,87.3,58.4,6.9,Bachelor's,Male,No,64.7,Medium Risk
+STU191,Sofia Gupta,15.5,77.7,73.5,7.9,Doctorate,Male,No,79.3,Low Risk
+STU192,Mia Moore,22.7,95.9,53.3,6.6,High School,Male,No,77.5,Low Risk
+STU193,Sebastian Iyer,19.2,69.0,63.6,8.2,Associate Degree,Female,No,64.6,Medium Risk
+STU194,Evelyn Nair,11.1,89.4,76.5,5.6,High School,Female,No,67.9,Medium Risk
+STU195,Bhavya Saxena,19.0,89.1,49.7,7.4,High School,Male,No,69.9,Medium Risk
+STU196,William Gupta,20.1,78.3,78.2,9.5,High School,Male,Yes,79.3,Low Risk
+STU197,Isabella Deshmukh,13.1,85.9,71.7,6.0,Bachelor's,Male,Yes,81.1,Low Risk
+STU198,Utkarsh Reddy,18.8,67.0,79.7,6.4,Bachelor's,Female,Yes,73.4,Medium Risk
+STU199,Isabella Thomas,18.3,93.1,75.1,7.8,Bachelor's,Male,No,84.9,Low Risk
+STU200,Lucas Martin,11.7,79.8,91.1,7.4,High School,Female,Yes,83.8,Low Risk
+STU201,Meera Bhat,20.0,75.7,73.8,7.6,Master's,Male,Yes,90.1,Low Risk
+STU202,Neha Joshi,21.1,94.6,66.0,7.8,Bachelor's,Male,No,81.4,Low Risk
+STU203,Lucas Verma,24.0,73.5,73.7,8.0,Associate Degree,Male,No,83.0,Medium Risk
+STU204,Pooja Johnson,23.8,65.1,79.6,8.5,Bachelor's,Female,No,83.2,Medium Risk
+STU205,Lucas Bhat,10.4,63.3,72.7,7.7,Associate Degree,Male,Yes,65.7,Medium Risk
+STU206,Yash Mehta,12.8,89.3,72.6,6.9,Associate Degree,Female,No,73.1,Low Risk
+STU207,Ishaan Jones,20.8,66.6,62.2,8.0,Master's,Female,Yes,76.2,Medium Risk
+STU208,Ananya Hernandez,20.8,100.0,62.7,9.5,Associate Degree,Female,Yes,73.0,Low Risk
+STU209,Siddharth Chopra,20.8,57.0,52.4,7.0,Bachelor's,Male,Yes,68.9,High Risk
+STU210,Michael Williams,35.0,100.0,96.5,6.0,Master's,Female,Yes,99.5,Low Risk
+STU211,Olivia Kulkarni,21.1,84.5,54.6,8.5,Bachelor's,Female,Yes,75.2,Low Risk
+STU212,Siddharth Verma,24.2,80.8,62.3,7.1,High School,Male,No,85.3,Low Risk
+STU213,Priya Garcia,23.2,75.5,61.9,4.6,High School,Female,Yes,71.8,Medium Risk
+STU214,Ethan Malhotra,21.6,86.8,84.5,8.2,High School,Male,No,84.8,Low Risk
+STU215,Divya Malhotra,16.3,81.5,67.9,6.6,Bachelor's,Female,Yes,82.4,Low Risk
+STU216,Mason Gonzalez,22.2,95.2,89.5,7.1,Associate Degree,Female,Yes,92.1,Low Risk
+STU217,Amelia Anderson,13.7,83.4,62.6,7.6,High School,Male,Yes,68.0,Medium Risk
+STU218,Ethan Verma,16.7,83.8,75.9,7.4,Doctorate,Female,Yes,82.4,Low Risk
+STU219,Jaya Shah,15.3,77.6,60.3,8.1,Bachelor's,Female,No,71.2,Medium Risk
+STU220,Pooja Moore,18.5,81.3,98.0,6.7,High School,Male,Yes,89.3,Low Risk
+STU221,Vidya Gupta,30.7,85.7,55.4,7.8,Bachelor's,Male,Yes,83.6,Low Risk
+STU222,Ishaan Jackson,7.7,61.5,76.3,6.9,Bachelor's,Male,Yes,61.6,Medium Risk
+STU223,Evelyn Williams,21.8,65.8,80.9,8.1,High School,Female,Yes,78.2,Medium Risk
+STU224,Noah Davis,9.1,90.9,77.8,7.9,Associate Degree,Female,No,72.0,Low Risk
+STU225,Victoria Gonzalez,15.4,84.1,69.4,6.1,Master's,Male,Yes,77.8,Low Risk
+STU226,Jaya Jones,24.0,79.8,70.2,8.5,Bachelor's,Male,No,83.7,Low Risk
+STU227,Aria Chopra,18.4,82.2,72.6,6.6,Bachelor's,Male,No,71.7,Medium Risk
+STU228,Varun Gupta,12.1,86.2,69.9,8.2,Associate Degree,Male,No,74.1,Low Risk
+STU229,Evelyn Sharma,14.1,75.5,85.5,7.6,High School,Male,No,76.3,Low Risk
+STU230,Jackson Anderson,21.7,72.7,98.0,9.4,High School,Female,No,90.9,Medium Risk
+STU231,Rahul Brown,14.0,84.4,64.2,6.9,Associate Degree,Female,No,71.2,Medium Risk
+STU232,Evelyn Kumar,19.2,70.3,52.8,6.8,High School,Male,No,68.8,Medium Risk
+STU233,Ethan Martin,18.3,86.9,70.8,7.2,High School,Female,Yes,80.9,Low Risk
+STU234,Noah Rao,14.4,61.6,98.0,6.8,Master's,Female,Yes,85.6,Medium Risk
+STU235,Liam Gonzalez,29.8,94.3,60.7,8.2,Doctorate,Male,Yes,95.4,Low Risk
+STU236,Olivia Miller,21.5,87.7,94.9,5.3,Bachelor's,Male,No,90.6,Low Risk
+STU237,Ava Garcia,6.9,85.1,95.5,5.9,Master's,Female,No,84.0,Low Risk
+STU238,Emma Thomas,19.0,93.8,64.2,5.9,High School,Female,Yes,81.1,Low Risk
+STU239,Kavya Chopra,14.4,100.0,80.0,8.3,Doctorate,Female,No,86.5,Low Risk
+STU240,Harper Jones,22.7,94.2,94.8,9.3,High School,Male,Yes,90.3,Low Risk
+STU241,Pooja Martin,13.6,59.9,66.7,7.1,Doctorate,Male,Yes,63.2,High Risk
+STU242,Mateo Saxena,17.4,66.6,69.1,7.0,Doctorate,Female,No,73.9,Medium Risk
+STU243,Amelia Thomas,20.8,74.5,63.9,7.3,Bachelor's,Female,Yes,77.8,Medium Risk
+STU244,Aarav Saxena,22.8,82.3,57.8,8.6,Doctorate,Male,Yes,78.2,Low Risk
+STU245,Alex Deshmukh,11.4,88.2,62.9,6.1,Bachelor's,Female,No,68.0,Medium Risk
+STU246,Evelyn Moore,16.2,73.3,54.9,7.5,Associate Degree,Male,No,70.9,Medium Risk
+STU247,Victoria Smith,15.4,84.2,72.5,8.4,Associate Degree,Male,Yes,78.7,Low Risk
+STU248,Emily Rodriguez,14.4,72.9,61.2,7.8,Bachelor's,Female,No,62.5,Medium Risk
+STU249,Alexander Deshmukh,27.7,74.7,75.3,7.4,High School,Male,Yes,87.5,Medium Risk
+STU250,Ella Hernandez,20.2,65.1,50.2,8.4,Bachelor's,Female,Yes,64.2,Medium Risk
+STU251,Nikhil Singh,11.1,70.9,76.6,4.5,Doctorate,Female,Yes,68.1,Medium Risk
+STU252,Alex Gonzalez,23.0,65.8,83.7,8.0,High School,Male,No,79.5,Medium Risk
+STU253,Madison Johnson,29.7,70.3,44.1,6.4,Bachelor's,Female,Yes,74.7,Medium Risk
+STU254,Harsh Bhat,23.7,94.6,77.2,5.0,Master's,Non-Binary,No,84.4,Low Risk
+STU255,Olivia Kulkarni,9.6,70.6,89.2,7.8,Master's,Male,No,72.8,Medium Risk
+STU256,Rahul Iyer,15.3,100.0,55.1,8.8,Doctorate,Female,No,72.4,Low Risk
+STU257,Arjun Gupta,25.0,87.9,95.4,7.0,Bachelor's,Female,Yes,88.8,Low Risk
+STU258,Utkarsh Hernandez,14.1,84.2,77.9,8.3,Doctorate,Female,No,85.4,Low Risk
+STU259,Theodore Kumar,20.4,71.7,62.1,9.1,Bachelor's,Female,Yes,77.4,Medium Risk
+STU260,Michael Miller,22.3,90.4,71.2,8.8,High School,Female,Yes,82.5,Low Risk
+STU261,Aria Chopra,12.9,75.1,79.8,9.2,Bachelor's,Female,Yes,73.8,Low Risk
+STU262,Charlotte Lopez,17.7,83.5,73.1,8.1,Bachelor's,Female,Yes,76.1,Low Risk
+STU263,Amelia Bhat,3.0,100.0,79.5,7.3,High School,Male,No,74.4,Low Risk
+STU264,Madhav Sharma,12.4,80.8,59.1,5.3,Bachelor's,Male,Yes,72.3,Low Risk
+STU265,Ishaan Davis,16.6,95.8,74.4,6.9,Bachelor's,Male,Yes,84.0,Low Risk
+STU266,Siddharth Joshi,11.1,73.6,52.2,6.2,High School,Female,No,59.7,Medium Risk
+STU267,Jackson Martinez,27.0,81.6,70.4,9.5,Bachelor's,Female,Yes,87.6,Low Risk
+STU268,Chaitanya Thomas,10.1,100.0,59.3,7.0,Bachelor's,Male,No,64.7,Medium Risk
+STU269,Utkarsh Rao,15.6,74.5,61.7,7.3,Bachelor's,Female,Yes,69.2,Medium Risk
+STU270,Michael Nair,18.7,100.0,89.3,7.9,High School,Female,No,90.1,Low Risk
+STU271,Emily Wilson,25.9,90.5,87.3,7.3,High School,Male,No,92.3,Low Risk
+STU272,Camila Jackson,10.1,75.3,80.5,9.2,Associate Degree,Male,Yes,69.2,Medium Risk
+STU273,Noah Rodriguez,24.4,89.6,56.7,6.5,Master's,Male,Yes,82.8,Low Risk
+STU274,Theodore Gonzalez,18.1,93.7,67.6,7.4,High School,Female,Yes,79.9,Low Risk
+STU275,Henry Thomas,12.6,89.5,89.0,6.3,Bachelor's,Male,No,80.6,Low Risk
+STU276,Abigail Mehta,20.5,63.2,74.0,5.6,High School,Male,Yes,69.9,Medium Risk
+STU277,Daniel Rodriguez,19.1,73.3,98.0,6.5,Associate Degree,Male,Yes,84.9,Medium Risk
+STU278,Vidya Bhat,14.7,79.0,77.5,7.2,Master's,Male,Yes,74.1,Low Risk
+STU279,Zoya Wilson,18.4,81.1,74.7,6.7,Bachelor's,Male,Yes,84.0,Low Risk
+STU280,Jacob Bhat,15.9,89.4,67.7,6.4,High School,Male,Yes,67.8,Medium Risk
+STU281,Zoya Rodriguez,18.6,84.1,73.9,5.5,Associate Degree,Female,No,81.0,Low Risk
+STU282,Esha Agarwal,21.6,66.0,69.9,7.1,High School,Male,Yes,80.6,Medium Risk
+STU283,Tanvi Malhotra,26.7,86.6,81.9,5.4,Bachelor's,Male,Yes,91.9,Low Risk
+STU284,Ethan Smith,11.2,89.3,85.4,8.1,Bachelor's,Male,No,68.9,Medium Risk
+STU285,Sofia Singh,29.7,88.7,61.0,7.3,High School,Female,No,85.2,Low Risk
+STU286,Kiran Iyer,7.3,95.0,53.4,5.5,Associate Degree,Female,Yes,61.2,Medium Risk
+STU287,Sanya Jones,17.2,92.0,46.3,6.8,Associate Degree,Male,Yes,66.4,Medium Risk
+STU288,Meera Deshmukh,21.2,87.5,79.1,6.3,Master's,Male,Yes,86.3,Low Risk
+STU289,Divya Miller,19.5,81.2,56.6,7.6,Doctorate,Male,No,80.4,Low Risk
+STU290,Lucas Johnson,14.6,62.1,41.9,8.8,High School,Male,Yes,56.3,Medium Risk
+STU291,Sofia Martinez,16.9,87.2,77.4,4.9,Bachelor's,Male,No,74.6,Low Risk
+STU292,Harper Patel,15.3,84.5,98.0,7.3,Associate Degree,Male,No,80.2,Low Risk
+STU293,Rhea Miller,14.8,85.3,71.9,7.0,Associate Degree,Male,Yes,75.0,Low Risk
+STU294,Charlotte Moore,22.7,66.7,83.7,8.0,Bachelor's,Male,Yes,84.1,Medium Risk
+STU295,Anya Taylor,20.0,69.0,73.1,7.5,Master's,Male,Yes,81.5,Medium Risk
+STU296,James Hernandez,14.2,94.6,70.6,6.3,Doctorate,Female,Yes,78.2,Low Risk
+STU297,Aarav Williams,22.9,81.5,84.9,6.8,Bachelor's,Female,Yes,91.9,Low Risk
+STU298,Liam Jones,19.7,90.2,67.9,6.2,Associate Degree,Male,No,85.3,Low Risk
+STU299,Harper Anderson,22.5,82.3,75.7,8.5,Bachelor's,Female,No,86.5,Low Risk
+STU300,Sofia Jackson,21.5,82.4,76.5,7.2,Associate Degree,Female,No,82.6,Low Risk
+STU301,Siddharth Lopez,13.4,93.3,62.6,9.5,Bachelor's,Female,No,69.8,Medium Risk
+STU302,Siddharth Malhotra,14.9,75.8,85.9,7.1,Associate Degree,Female,Yes,78.0,Low Risk
+STU303,Evelyn Lopez,22.1,83.2,69.6,6.3,Bachelor's,Female,Yes,86.9,Low Risk
+STU304,Arjun Jones,21.4,76.5,61.4,5.4,High School,Female,Yes,71.1,Medium Risk
+STU305,Sophia Garcia,17.9,76.8,79.5,5.0,High School,Male,No,74.8,Low Risk
+STU306,Nikhil Martinez,18.6,78.3,59.4,5.3,Master's,Male,No,71.0,Medium Risk
+STU307,Kavya Martin,25.0,84.7,72.4,7.5,High School,Female,No,83.3,Low Risk
+STU308,Levi Verma,14.7,76.3,71.9,7.8,Bachelor's,Female,Yes,69.6,Medium Risk
+STU309,Benjamin Moore,21.0,97.1,87.2,5.3,High School,Male,Yes,91.3,Low Risk
+STU310,Mateo Verma,16.9,71.3,78.6,8.3,High School,Female,No,73.2,Medium Risk
+STU311,Gautam Davis,16.8,79.8,71.6,6.6,High School,Male,Yes,76.8,Low Risk
+STU312,Kiran Martinez,24.0,76.7,83.4,7.4,High School,Male,No,84.0,Low Risk
+STU313,Pranav Patel,22.5,99.4,91.5,9.1,Master's,Male,No,99.5,Low Risk
+STU314,Vidya Jones,22.5,84.4,79.8,8.3,Associate Degree,Female,No,82.2,Low Risk
+STU315,Ava Deshmukh,25.2,94.4,72.1,6.9,Doctorate,Male,Yes,99.5,Low Risk
+STU316,Michael Smith,18.1,64.2,53.6,6.1,Bachelor's,Female,Yes,59.2,Medium Risk
+STU317,Sophia Jones,21.8,85.2,57.1,4.6,Associate Degree,Male,Yes,76.3,Low Risk
+STU318,Zoya Miller,16.3,92.7,67.7,6.3,Bachelor's,Male,Yes,80.3,Low Risk
+STU319,Varun Singh,19.8,83.0,63.5,6.9,Bachelor's,Female,Yes,75.5,Low Risk
+STU320,Daniel Verma,17.3,94.8,69.4,6.0,Bachelor's,Female,No,80.2,Low Risk
+STU321,Sofia Patel,18.5,75.8,72.8,7.0,Associate Degree,Female,No,80.1,Low Risk
+STU322,Mason Kulkarni,21.3,98.9,79.4,7.3,Associate Degree,Male,Yes,83.4,Low Risk
+STU323,Divya Gupta,13.5,100.0,71.0,6.9,Master's,Female,Yes,82.7,Low Risk
+STU324,Arjun Bhat,29.5,77.6,78.8,6.4,Master's,Male,Yes,85.3,Low Risk
+STU325,Rahul Verma,12.5,76.7,72.9,7.4,Master's,Female,Yes,70.4,Medium Risk
+STU326,Madison Iyer,11.3,99.4,44.3,7.7,Associate Degree,Male,No,69.3,Medium Risk
+STU327,Tanvi Nair,24.4,100.0,58.8,5.9,Bachelor's,Male,Yes,83.6,Low Risk
+STU328,Daniel Rao,22.4,75.7,70.0,8.9,Bachelor's,Male,Yes,76.5,Low Risk
+STU329,Mateo Deshmukh,21.4,77.0,55.1,7.1,Bachelor's,Male,Yes,74.1,Low Risk
+STU330,Emily Shah,21.5,78.6,80.4,7.2,High School,Female,No,89.4,Low Risk
+STU331,Mia Mehta,17.9,65.9,93.4,8.0,Bachelor's,Female,No,75.0,Medium Risk
+STU332,Victoria Jackson,13.1,71.0,89.1,7.5,High School,Male,Yes,72.9,Medium Risk
+STU333,Jaya Mehta,18.4,70.0,69.0,8.3,Associate Degree,Female,Yes,78.9,Medium Risk
+STU334,Olivia Reddy,14.3,72.8,92.9,7.5,Master's,Female,No,87.5,Medium Risk
+STU335,Jack Verma,23.4,81.6,74.1,6.5,High School,Female,No,81.4,Low Risk
+STU336,Olivia Taylor,17.2,84.8,67.3,7.6,High School,Female,Yes,71.9,Medium Risk
+STU337,James Garcia,13.5,100.0,63.4,5.8,High School,Female,No,78.8,Low Risk
+STU338,Rahul Kumar,16.2,70.0,67.8,7.3,Master's,Male,No,77.0,Medium Risk
+STU339,Scarlett Bhat,20.3,93.8,66.6,7.2,Bachelor's,Female,No,84.3,Low Risk
+STU340,Ishaan Saxena,14.9,79.4,74.4,7.0,Associate Degree,Male,No,70.6,Medium Risk
+STU341,Owen Rao,13.5,81.4,74.2,7.0,Master's,Female,No,74.3,Low Risk
+STU342,Mateo Gupta,19.3,90.1,72.0,4.9,Master's,Male,Yes,81.6,Low Risk
+STU343,Mason Anderson,19.3,68.5,78.1,6.5,Associate Degree,Female,No,76.9,Medium Risk
+STU344,Henry Brown,15.2,86.6,88.7,7.3,Bachelor's,Male,Yes,90.5,Low Risk
+STU345,Divya Gonzalez,15.4,84.0,85.3,7.4,Bachelor's,Male,No,84.6,Low Risk
+STU346,Sophia Sharma,19.3,87.9,51.2,6.0,Bachelor's,Female,Yes,69.3,Medium Risk
+STU347,Harper Lopez,10.0,85.5,36.2,8.7,High School,Male,No,56.9,Medium Risk
+STU348,Ishaan Davis,10.3,100.0,85.1,6.2,Master's,Non-Binary,No,81.6,Low Risk
+STU349,William Martinez,14.0,74.3,52.9,8.4,Bachelor's,Male,Yes,66.7,Medium Risk
+STU350,Meera Davis,16.8,75.6,68.9,7.7,Associate Degree,Male,No,77.5,Low Risk
+STU351,Pooja Wilson,19.7,74.5,55.6,6.4,Associate Degree,Female,Yes,66.7,Medium Risk
+STU352,Yash Martin,26.1,75.3,46.8,9.3,High School,Male,No,70.2,Medium Risk
+STU353,Levi Hernandez,22.7,74.4,79.6,5.8,High School,Female,Yes,80.3,Medium Risk
+STU354,Emily Davis,17.1,96.3,82.6,8.3,Bachelor's,Female,Yes,81.9,Low Risk
+STU355,Scarlett Malhotra,17.9,99.0,63.9,8.4,High School,Non-Binary,No,78.3,Low Risk
+STU356,Ava Bhat,12.5,75.2,35.7,6.4,Associate Degree,Female,Yes,63.3,Medium Risk
+STU357,Harsh Malhotra,17.9,72.0,64.4,8.9,Bachelor's,Male,No,63.7,Medium Risk
+STU358,Abigail Bhat,16.4,87.7,77.5,6.9,High School,Male,Yes,79.8,Low Risk
+STU359,Emily Taylor,19.8,75.4,51.3,7.5,Doctorate,Male,Yes,75.7,Low Risk
+STU360,Theodore Jones,13.5,89.6,74.6,7.5,High School,Non-Binary,Yes,77.3,Low Risk
+STU361,Sophia Verma,20.9,84.4,71.8,7.0,Associate Degree,Female,No,80.2,Low Risk
+STU362,Mila Smith,26.4,63.8,80.1,8.2,Associate Degree,Female,Yes,80.7,Medium Risk
+STU363,Pranav Lopez,17.4,100.0,73.7,8.2,High School,Female,Yes,84.1,Low Risk
+STU364,Rohan Williams,20.2,100.0,58.4,5.1,High School,Female,Yes,75.2,Low Risk
+STU365,Vidya Johnson,21.8,74.6,88.8,8.8,Bachelor's,Female,Yes,79.9,Medium Risk
+STU366,Zoya Jackson,15.8,77.3,69.8,5.2,Doctorate,Female,No,76.9,Low Risk
+STU367,Zoya Thomas,19.2,85.4,71.6,8.4,High School,Male,No,80.8,Low Risk
+STU368,Aditi Wilson,18.1,86.0,58.9,8.6,Bachelor's,Male,Yes,75.0,Low Risk
+STU369,Priya Singh,18.5,89.9,65.8,5.9,Bachelor's,Female,No,77.6,Low Risk
+STU370,Tanvi Miller,13.7,100.0,59.6,6.7,Master's,Male,Yes,79.9,Low Risk
+STU371,Jacob Thomas,18.1,79.9,69.6,5.9,Associate Degree,Female,No,74.6,Low Risk
+STU372,Tanvi Hernandez,20.7,72.4,96.0,6.9,Associate Degree,Female,No,89.7,Medium Risk
+STU373,Jacob Rodriguez,26.0,65.4,52.8,6.8,Associate Degree,Male,No,70.8,Medium Risk
+STU374,Anya Singh,23.3,73.2,49.4,8.1,Bachelor's,Male,Yes,77.7,Medium Risk
+STU375,Emma Kulkarni,29.8,81.6,92.6,8.8,Master's,Male,No,99.5,Low Risk
+STU376,Amelia Bhat,13.8,100.0,69.1,8.9,High School,Female,Yes,77.2,Low Risk
+STU377,Olivia Moore,22.8,75.8,62.6,6.5,Associate Degree,Male,No,71.0,Medium Risk
+STU378,Mia Hernandez,19.0,84.7,86.6,6.9,Master's,Male,Yes,89.7,Low Risk
+STU379,Sebastian Wilson,30.0,81.8,63.5,5.2,Master's,Male,No,83.2,Low Risk
+STU380,Mason Davis,13.6,96.3,97.6,6.2,Doctorate,Male,No,87.0,Low Risk
+STU381,Sebastian Johnson,13.4,100.0,81.5,8.4,Bachelor's,Male,No,79.0,Low Risk
+STU382,Isabella Martinez,14.7,75.6,65.2,9.1,Associate Degree,Male,Yes,65.1,Medium Risk
+STU383,Yash Saxena,6.3,76.1,98.0,5.7,Bachelor's,Male,No,79.7,Low Risk
+STU384,Varun Kulkarni,15.1,94.5,63.5,6.5,Bachelor's,Non-Binary,Yes,81.0,Low Risk
+STU385,Karan Chopra,13.8,90.2,82.4,7.2,High School,Male,No,85.0,Low Risk
+STU386,Noah Rao,18.8,100.0,76.2,7.5,Bachelor's,Female,Yes,84.4,Low Risk
+STU387,Levi Joshi,19.9,89.0,90.2,6.2,Bachelor's,Male,Yes,90.9,Low Risk
+STU388,Priya Deshmukh,28.3,77.7,93.9,7.7,High School,Female,Yes,92.7,Low Risk
+STU389,Elizabeth Malhotra,23.2,89.1,72.4,6.6,Bachelor's,Female,Yes,84.9,Low Risk
+STU390,Scarlett Wilson,14.8,95.3,61.5,7.2,Bachelor's,Male,Yes,73.0,Low Risk
+STU391,Owen Agarwal,13.1,91.8,78.4,7.9,Doctorate,Male,Yes,86.6,Low Risk
+STU392,Isha Chopra,20.7,88.1,62.5,7.2,High School,Male,Yes,77.5,Low Risk
+STU393,Emma Kulkarni,10.7,94.8,98.0,6.7,Associate Degree,Female,No,87.0,Low Risk
+STU394,William Joshi,28.1,96.0,73.9,7.1,Bachelor's,Male,No,96.3,Low Risk
+STU395,Liam Sharma,24.5,98.6,66.9,7.1,Associate Degree,Female,Yes,97.2,Low Risk
+STU396,Levi Nair,15.4,89.8,74.6,6.8,Bachelor's,Non-Binary,Yes,75.0,Low Risk
+STU397,Zoya Gupta,8.6,80.0,53.1,6.9,Bachelor's,Non-Binary,Yes,65.0,Medium Risk
+STU398,Chaitanya Thomas,25.4,83.8,58.4,9.1,High School,Male,Yes,83.4,Low Risk
+STU399,Emma Nair,17.4,96.5,88.8,7.9,Bachelor's,Male,No,85.4,Low Risk
+STU400,Jacob Reddy,24.8,72.2,62.8,6.8,Bachelor's,Male,No,81.4,Medium Risk
+STU401,Aditi Taylor,9.2,86.4,57.3,8.0,Associate Degree,Male,Yes,65.4,Medium Risk
+STU402,Alex Hernandez,14.7,77.3,79.5,6.8,Master's,Female,Yes,77.7,Low Risk
+STU403,Elizabeth Rodriguez,18.0,82.3,88.6,8.6,Master's,Female,Yes,84.1,Low Risk
+STU404,Sophia Joshi,18.3,97.3,82.1,7.6,Bachelor's,Male,No,85.1,Low Risk
+STU405,Chaitanya Shah,15.5,84.3,85.9,7.1,Bachelor's,Male,No,88.8,Low Risk
+STU406,Elizabeth Rao,21.4,82.6,61.4,7.7,Bachelor's,Female,Yes,79.5,Low Risk
+STU407,Divya Garcia,12.1,65.7,52.1,5.3,Master's,Male,Yes,61.3,Medium Risk
+STU408,Jacob Kumar,17.2,91.0,93.0,5.8,Bachelor's,Female,No,84.3,Low Risk
+STU409,Aria Patel,18.7,89.7,67.5,5.8,Bachelor's,Male,No,74.9,Low Risk
+STU410,Meera Iyer,20.8,100.0,68.5,7.4,Master's,Male,Yes,92.3,Low Risk
+STU411,Mateo Saxena,21.9,78.3,90.6,9.3,Associate Degree,Male,Yes,83.3,Low Risk
+STU412,Gautam Bhat,11.8,84.6,79.8,9.5,Master's,Male,Yes,74.7,Low Risk
+STU413,Karan Thomas,9.6,85.0,78.4,8.0,High School,Female,No,70.2,Medium Risk
+STU414,Harper Jackson,25.0,100.0,98.0,7.8,Associate Degree,Female,Yes,99.5,Low Risk
+STU415,Owen Martin,19.8,80.9,63.0,5.0,Associate Degree,Male,Yes,73.5,Low Risk
+STU416,Siddharth Wilson,13.9,85.3,85.0,6.5,Doctorate,Male,No,82.5,Low Risk
+STU417,James Rodriguez,26.5,89.3,72.8,6.3,Master's,Female,Yes,94.3,Low Risk
+STU418,Alexander Saxena,18.6,84.2,75.8,6.5,Bachelor's,Male,No,82.6,Low Risk
+STU419,Scarlett Davis,24.5,76.6,93.4,7.0,Bachelor's,Female,Yes,90.6,Low Risk
+STU420,Olivia Taylor,18.4,84.3,79.1,6.6,Bachelor's,Male,Yes,82.4,Low Risk
+STU421,Madison Patel,29.3,94.9,79.5,4.8,Master's,Male,No,99.5,Low Risk
+STU422,Theodore Reddy,27.7,69.7,87.0,8.1,Bachelor's,Female,Yes,95.7,Medium Risk
+STU423,Rhea Deshmukh,16.6,83.6,66.9,5.9,Associate Degree,Female,No,67.4,Medium Risk
+STU424,Vidya Singh,23.3,73.6,60.3,7.5,High School,Male,Yes,77.7,Medium Risk
+STU425,Neha Bhat,21.5,96.3,57.4,9.5,Bachelor's,Male,Yes,73.3,Low Risk
+STU426,Pooja Thomas,25.5,63.7,44.5,6.1,Bachelor's,Male,No,67.6,Medium Risk
+STU427,Esha Mehta,12.7,75.3,98.0,4.5,Associate Degree,Male,Yes,85.3,Low Risk
+STU428,Aarav Miller,21.8,86.5,56.6,6.9,High School,Male,No,71.4,Medium Risk
+STU429,Abigail Jackson,23.8,100.0,68.9,8.5,Master's,Male,Yes,88.0,Low Risk
+STU430,Daniel Agarwal,8.3,81.2,68.1,9.5,High School,Male,Yes,66.0,Medium Risk
+STU431,Ananya Kulkarni,11.5,75.3,76.3,5.7,Bachelor's,Female,Yes,65.2,Medium Risk
+STU432,Alex Agarwal,6.8,100.0,83.4,7.8,Doctorate,Female,Yes,77.9,Low Risk
+STU433,Michael Kumar,16.5,64.6,84.0,6.6,Associate Degree,Female,No,76.1,Medium Risk
+STU434,Sanya Shah,21.9,55.6,63.8,7.1,High School,Male,No,66.0,High Risk
+STU435,Scarlett Chopra,26.3,87.3,69.7,9.5,Bachelor's,Female,Yes,86.9,Low Risk
+STU436,Henry Rao,18.4,76.0,76.0,5.4,Master's,Male,Yes,81.6,Low Risk
+STU437,Sofia Kulkarni,27.0,69.7,68.5,7.5,Bachelor's,Male,No,84.2,Medium Risk
+STU438,Meera Malhotra,10.4,90.5,94.5,7.8,Doctorate,Male,No,84.7,Low Risk
+STU439,Madhav Kumar,8.6,84.9,78.9,8.5,High School,Female,Yes,69.4,Medium Risk
+STU440,Dev Mehta,17.7,75.2,82.3,7.3,Bachelor's,Female,Yes,83.2,Low Risk
+STU441,Olivia Jackson,20.1,66.6,81.3,7.6,Bachelor's,Female,Yes,81.0,Medium Risk
+STU442,Mateo Agarwal,17.8,92.5,88.4,6.7,Master's,Female,No,90.0,Low Risk
+STU443,Alexander Rao,6.6,89.8,74.5,7.5,High School,Female,Yes,67.5,Medium Risk
+STU444,Emily Saxena,17.5,80.8,53.8,6.8,Master's,Male,Yes,71.2,Medium Risk
+STU445,Amelia Malhotra,10.8,100.0,77.6,7.9,Bachelor's,Male,No,74.5,Low Risk
+STU446,Logan Anderson,21.7,69.2,62.9,6.8,Associate Degree,Male,Yes,74.5,Medium Risk
+STU447,Mila Rodriguez,20.0,63.7,64.6,7.7,High School,Male,Yes,68.4,Medium Risk
+STU448,Gautam Jackson,12.8,73.7,80.2,7.2,Master's,Female,Yes,72.1,Medium Risk
+STU449,Bhavya Davis,15.2,81.5,89.3,8.6,High School,Male,Yes,81.9,Low Risk
+STU450,Ava Jackson,12.2,84.9,72.3,7.1,Associate Degree,Male,Yes,74.2,Low Risk
+STU451,Varun Verma,17.7,79.1,76.3,5.1,Associate Degree,Female,Yes,79.7,Low Risk
+STU452,Harsh Kulkarni,23.3,86.2,95.8,8.7,Master's,Male,Yes,95.5,Low Risk
+STU453,Aria Moore,12.6,67.0,75.4,6.1,Bachelor's,Female,No,68.7,Medium Risk
+STU454,Anya Malhotra,20.8,99.3,98.0,6.4,Bachelor's,Male,No,98.4,Low Risk
+STU455,Aria Gupta,15.1,81.0,79.9,6.5,Associate Degree,Non-Binary,No,77.4,Low Risk
+STU456,Pooja Hernandez,13.6,95.4,47.3,8.8,Bachelor's,Female,Yes,64.9,Medium Risk
+STU457,Jackson Rodriguez,17.4,86.1,82.5,4.6,Bachelor's,Male,Yes,82.4,Low Risk
+STU458,Zoya Joshi,12.3,87.5,77.3,9.5,Master's,Male,Yes,77.9,Low Risk
+STU459,Jack Davis,15.0,88.8,90.1,8.5,Master's,Non-Binary,Yes,86.6,Low Risk
+STU460,Jacob Singh,11.4,87.4,81.4,7.5,High School,Female,Yes,69.4,Medium Risk
+STU461,Daniel Williams,28.8,89.7,70.1,7.1,Bachelor's,Male,No,91.9,Low Risk
+STU462,Lucas Johnson,18.2,97.9,54.9,7.5,High School,Female,Yes,84.1,Low Risk
+STU463,Ava Reddy,14.2,84.4,69.1,7.8,Bachelor's,Female,Yes,74.0,Low Risk
+STU464,Neha Johnson,19.2,90.5,60.1,8.0,Associate Degree,Female,Yes,75.2,Low Risk
+STU465,Lucas Lopez,17.4,80.9,63.9,7.9,Associate Degree,Non-Binary,No,73.7,Low Risk
+STU466,Alex Garcia,16.8,99.3,80.2,7.3,Associate Degree,Male,Yes,87.8,Low Risk
+STU467,Sebastian Gupta,21.4,73.9,95.4,7.0,Bachelor's,Male,No,92.8,Medium Risk
+STU468,Michael Singh,22.2,100.0,77.5,7.0,Associate Degree,Male,Yes,87.0,Low Risk
+STU469,Noah Shah,15.1,81.5,55.3,7.0,Bachelor's,Female,No,69.9,Medium Risk
+STU470,Ava Rao,14.8,64.8,78.2,8.6,Associate Degree,Female,No,71.6,Medium Risk
+STU471,Amelia Gonzalez,16.5,83.5,88.8,7.9,High School,Female,Yes,83.2,Low Risk
+STU472,Aarav Anderson,5.3,73.8,63.5,4.5,Bachelor's,Female,Yes,57.7,Medium Risk
+STU473,Emily Miller,9.7,92.1,70.1,8.0,Associate Degree,Female,Yes,75.6,Low Risk
+STU474,Chaitanya Chopra,25.5,74.2,72.2,7.4,Associate Degree,Female,Yes,88.1,Medium Risk
+STU475,Jackson Brown,27.0,76.6,61.0,7.2,Bachelor's,Female,No,77.5,Low Risk
+STU476,Madison Lopez,16.6,59.3,81.1,6.7,Associate Degree,Female,No,74.2,High Risk
+STU477,Alexander Patel,21.2,76.6,70.3,8.5,High School,Female,No,75.9,Low Risk
+STU478,Rhea Malhotra,19.7,52.9,77.9,8.3,Associate Degree,Female,No,71.6,High Risk
+STU479,Sebastian Nair,34.9,63.0,59.6,6.3,Master's,Non-Binary,Yes,87.4,Medium Risk
+STU480,Alex Rodriguez,24.2,91.1,65.9,7.7,Bachelor's,Male,Yes,86.7,Low Risk
+STU481,Jacob Rao,17.3,91.4,82.1,6.0,Bachelor's,Male,No,87.1,Low Risk
+STU482,Arjun Jackson,12.7,87.1,66.8,5.5,Bachelor's,Female,Yes,71.2,Medium Risk
+STU483,Tanvi Mehta,9.2,70.4,96.2,6.4,High School,Female,No,67.8,Medium Risk
+STU484,Olivia Thomas,19.1,81.4,66.4,8.2,Associate Degree,Male,Yes,75.7,Low Risk
+STU485,Aditi Thomas,13.8,82.0,75.1,8.3,Bachelor's,Female,Yes,76.6,Low Risk
+STU486,Lucas Singh,10.2,68.1,85.1,7.8,High School,Female,No,72.7,Medium Risk
+STU487,Siddharth Rao,14.4,100.0,52.1,8.1,Associate Degree,Female,Yes,74.1,Low Risk
+STU488,Emily Rao,12.1,92.5,47.3,7.8,Associate Degree,Female,No,60.4,Medium Risk
+STU489,Meera Lopez,27.3,79.3,50.6,6.4,Associate Degree,Female,No,85.0,Low Risk
+STU490,Emma Gonzalez,22.8,82.3,89.7,7.7,Doctorate,Female,No,93.8,Low Risk
+STU491,Yash Miller,18.0,84.5,64.3,8.2,High School,Male,No,77.5,Low Risk
+STU492,Elizabeth Hernandez,26.1,57.5,98.0,8.1,Bachelor's,Female,No,89.0,High Risk
+STU493,Utkarsh Martinez,18.4,79.0,64.1,8.6,High School,Female,No,73.0,Low Risk
+STU494,Sebastian Iyer,13.3,73.8,74.6,8.0,Doctorate,Male,Yes,77.9,Medium Risk
+STU495,Charlotte Chopra,26.4,70.0,93.6,7.6,High School,Female,Yes,96.9,Medium Risk
+STU496,Owen Gonzalez,21.0,78.6,98.0,8.5,Associate Degree,Female,No,92.9,Low Risk
+STU497,Kiran Kumar,12.3,100.0,98.0,7.2,Bachelor's,Male,Yes,93.4,Low Risk
+STU498,Zoya Miller,17.0,89.7,88.9,6.1,Bachelor's,Female,Yes,86.0,Low Risk
+STU499,Sophia Gonzalez,13.2,75.1,86.3,7.0,Associate Degree,Female,Yes,75.2,Low Risk
+STU500,Yash Sharma,10.4,88.9,80.3,6.3,Associate Degree,Female,No,74.3,Low Risk
