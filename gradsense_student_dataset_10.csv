@@ -1,0 +1,11 @@
+student_id,student_name,study_hours,attendance,previous_score,sleep_hours,parental_education,gender,extra_curricular,final_score,risk_level
+STU001,Aarav Mehta,11.5,89.0,68.2,7.9,High School,Female,Yes,70.8,Medium Risk
+STU002,Diya Sharma,18.4,50.8,73.0,8.5,Master's Degree,Male,Yes,59.8,High Risk
+STU003,Kabir Reddy,11.3,64.4,93.2,5.9,Associate Degree,Male,Yes,77.3,Medium Risk
+STU004,Ananya Iyer,15.1,92.6,54.2,8.2,Bachelor's Degree,Female,No,64.7,High Risk
+STU005,Vihaan Rao,20.5,87.5,80.5,6.9,Bachelor's Degree,Female,No,80.9,Low Risk
+STU006,Myra Kapoor,17.0,63.8,68.7,8.8,High School,Female,Yes,63.7,High Risk
+STU007,Reyansh Gupta,15.5,72.6,63.7,7.6,Master's Degree,Female,Yes,58.2,High Risk
+STU008,Saanvi Menon,29.7,89.7,63.2,6.2,Master's Degree,Male,Yes,68.7,Medium Risk
+STU009,Arjun Pillai,22.7,76.1,67.0,5.0,Associate Degree,Female,No,70.5,Medium Risk
+STU010,Ira Chatterjee,24.7,74.5,95.6,5.6,High School,Male,No,85.7,Medium Risk
