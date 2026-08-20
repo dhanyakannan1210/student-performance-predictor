@@ -42,9 +42,12 @@ Columns: `student_id, attendance_pct, avg_marks, study_hours_per_week, assignmen
 
 ## Team Members & Roles
 - [Roshan] — [LLM integration + prompt engineering]
-- [dhanya shree] — [UI/UX + Streamlit]
-    - [helina ivanovic] — [ML model]
-- [mridhula  — [PPT,github]
+- [Dhanya shree] — [UI/UX + Streamlit]
+- [Helina ivanovic] — [ML model]
+- [Mridhula ] — [PPT,github]
 ## AI Tools Used
 - Ollama (Phi-4-mini / Llama 3.2 3B) for generating plain-language prediction explanations
 - Claude used for code development and debugging assistance during the hackathon
+## Notes
+- All processing happens locally — no data leaves the machine, no external API calls
+- Designed and tested within the 7-hour hackathon window as part of Hack & Fest, SRM Institute of Science and Technology
