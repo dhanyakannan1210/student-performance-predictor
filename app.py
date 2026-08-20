@@ -4,6 +4,12 @@ import pandas as pd
 st.set_page_config(page_title="Student Performance Predictor", layout="wide")
 st.title("📊 Student Performance Predictor + AI Explainer")
 
+with st.sidebar:
+    st.header("About")
+    st.write("Upload a CSV of student data to predict outcomes and get AI-generated explanations for each prediction.")
+    st.markdown("---")
+    st.caption("Built with Streamlit, scikit-learn, and Ollama (local LLM)")
+
 uploaded_file = st.file_uploader("Upload student data (CSV)", type=["csv"])
 
 if uploaded_file is not None:
@@ -42,13 +48,20 @@ if uploaded_file is not None:
 
             st.metric("Model Accuracy", f"{acc*100:.1f}%")
 
-            # Step 4 — Predict on the full dataset + results table
+            # Step 4 — Predict on the full dataset + styled results table
             st.subheader("Predictions")
 
             df["predicted_outcome"] = model.predict(X)
             df["confidence"] = model.predict_proba(X).max(axis=1)
 
-            st.dataframe(df[["student_id", "predicted_outcome", "confidence"] + feature_cols])
+            def highlight_outcome(val):
+                color = "#2ecc71" if val == "Pass" else "#e74c3c"
+                return f"color: {color}; font-weight: bold"
+
+            styled_df = df[["student_id", "predicted_outcome", "confidence"] + feature_cols].style.map(
+                highlight_outcome, subset=["predicted_outcome"]
+            )
+            st.dataframe(styled_df)
 
             # Step 5 — Feature importance extraction (refined chart)
             st.subheader("What Drives These Predictions?")
